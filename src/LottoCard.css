@@ -1,0 +1,46 @@
+.LottoCard {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.LottoCard-container {
+  border-style: solid transparent;
+  box-shadow: black;
+  inset-block: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 350px;
+  box-shadow: 0 0 0 5px #a0a5b9, inset 0 0 0 2px #000000b7;
+}
+
+.LottoCard-title {
+  padding: 10px;
+}
+
+.LottoCard-balls {
+  display: flex;
+  width: 300px;
+  margin: auto;
+}
+
+.LottCard-ball {
+  display: flex;
+  background-color: orangered;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.LottoCard-button {
+  padding: 10px;
+}
+
+.LottoCard-btn {
+  background-color: darkblue;
+  color: white;
+  border-radius: 10px;
+}
